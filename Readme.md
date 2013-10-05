@@ -1,17 +1,16 @@
+# Node-ийг Эзэмших нь
 
-# Mastering Node
+ "Node-ийг эзэмших" нь бол node-ийн хакеруудаас node-ийн хакеруудад зориулан гаргаж буй нээлттэй эхийн эНом юм. VisionMedia-ийн хөгжүүлэгч TJ Holowaychuk-ийн санаачилсан "http://visionmedia.github.io/masteringnode/" Монгол хэлнээ буулгахыг зорилоо...
 
- Mastering node is an open source eBook by node hackers for node hackers. I started this as a side project and realized that I don't have time :) so go nuts, download it, build it, fork it, extend it and share it. If you come up with something you wish to contribute back, send me a pull request.
-
-## Authors
+## Зохиогч
 
  - TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))
 
-## Formats
+## Формат
 
  Mastering node is written using the markdown files provided in `./chapters`, which can then be converted to several output formats, currently including _pdf_, _mobi_, _epub_ and of course _html_.
 
-## All Formats
+## Нийт формат
 
     $ make
 
