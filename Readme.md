@@ -48,14 +48,14 @@ Contents of this eBook currently reference the following software versions:
 
   - node 0.2.0
 
-## Source
+## Эх
 
-All example source can be run simply by executing node against the file,
-for example:
+Нийт жишээ файлуудыг node ашиглан шууд ажиллуулж болно.
+Жишээлбэл:
 
       $ node src/events/basic.js
 
-## License
+## Лиценз
 
 Node.js is an official trademark of Joyent. This work is not formally related to or endorsed by the official Joyent Node.js open source or commercial project.
 
