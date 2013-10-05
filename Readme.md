@@ -1,14 +1,14 @@
-# Node-ийг Эзэмших нь
+# Зангилааг Эзэмших нь
 
- "Node-ийг эзэмших" нь бол node-ийн хакеруудаас node-ийн хакеруудад зориулан гаргаж буй нээлттэй эхийн эНом юм. VisionMedia-ийн хөгжүүлэгч TJ Holowaychuk-ийн санаачилсан "http://visionmedia.github.io/masteringnode/" Монгол хэлнээ буулгахыг зорилоо...
+ "Зангилааг эзэмших нь" бол зангилаан хакеруудаас зангилаан хакеруудад зориулан гаргаж буй нээлттэй эхийн эНом юм. ВышнМедиагийн/VisionMedia/ хөгжүүлэгч ТиЖэй Головэйчакийн/TJ Holowaychuk/ санаачилсан "http://visionmedia.github.io/masteringnode/" цахим номыг Монгол хэлнээ буулгахыг зорив...
 
 ## Зохиогч
 
- - TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))
+ - ТиЖэй Головэйчак /TJ Holowaychuk/ ([visionmedia](http://github.com/visionmedia))
 
 ## Формат
 
- Node-ийг эзэмших нь номыг `./chapters` хавтас дотор бүлэг, бүлгээр хэсэгчилэн бичсэн байгаа. Ингэснээр номыг _pdf_, _mobi_, _epub_ болон _html_ гэх мэт олон төрлийн бичиг баримтын өргөтгөлөөр боловсруулж гаргах боломжтой.
+ Зангилааг эзэмших нь номыг `./chapters` хавтас дотор бүлэг, бүлгээр хэсэгчилэн бичсэн байгаа. Ингэснээр номыг _pdf_, _mobi_, _epub_ болон _html_ гэх мэт олон төрлийн бичиг баримтын өргөтгөлөөр боловсруулж гаргах боломжтой.
 
 ## Нийт формат
 
@@ -46,13 +46,13 @@ _Epub_, _Mobi_ өргөтгөл бүхий цахим ном болгоход [C
 
 ## Эх
 
-Нийт жишээ файлуудыг node ашиглан шууд ажиллуулж болно.
+Нийт жишээ файлуудыг зангилаа ашиглан шууд ажиллуулж болно.
 Жишээлбэл:
 
       $ node src/events/basic.js
 
 ## Лиценз
 
-Node.js бол "Joyent"-ийн албан ёсны худалдааны тэмдэг юм. Гэвч энэхүү ажил нь "Joyent Node.js"-ийн худалдааны эсэхүл нээлттэй эхийн төсөлд хамаарахгүй юм.
+Node.js бол "Joyent"-ийн албан ёсны худалдааны тэмдэг юм. Гэвч энэхүү ажил нь "Joyent Node.js"-ийн худалдааны эсэхүл нээлттэй эхийн төсөлд хамаарахгүй.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png" /></a><br /><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">ТиЖэй Голловэйчак</span>-ийн <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Node-ийг Эзэмших нь</span> бүтээлийн лиценз <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
