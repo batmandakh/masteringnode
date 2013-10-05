@@ -8,43 +8,39 @@
 
 ## Формат
 
- Mastering node is written using the markdown files provided in `./chapters`, which can then be converted to several output formats, currently including _pdf_, _mobi_, _epub_ and of course _html_.
+ Node-ийг эзэмших нь номыг `./chapters` хавтас дотор бүлэг, бүлгээр хэсэгчилэн бичсэн байгаа. Ингэснээр номыг _pdf_, _mobi_, _epub_ болон _html_ гэх мэт олон төрлийн бичиг баримтын өргөтгөлөөр боловсруулж гаргах боломжтой.
 
 ## Нийт формат
+
+Тушаалын мөрөнд дараах тушаалыг өгснөөр бүх форматаар боловруулна.
 
     $ make
 
 ## PDF
 
-Required by `make book.pdf`:
+PDF баримт болгоход _brew_ хэрэгтэй ба дараах хоёр тушаалыг өгөхөд хангалттай:
 
     $ brew install htmldoc
     $ make book.pdf
 
 ## HTML
 
-Required by `make book.html`:
+HTML хуудас болгоход _ronn_ хэрэгтэй ба дараах хоёр тушаалыг өгөхөд хангалттай:
 
     $ gem install ronn
     $ make book.html
 
-## EPUB
+## EPUB && MOBI
 
-Required by `make book.epub`:
-Requires [Calibre](http://calibre-ebook.com/)
+_Epub_, _Mobi_ өргөтгөл бүхий цахим ном болгоход [Calibre](http://calibre-ebook.com/) цахим ном програм шаардлагатай ба суулгасны дараа доорх тушаалаар боловсруулна.
 
     $ make book.epub
-
-## MOBI
-
-Required by `make book.mobi`:
-Requires [Calibre](http://calibre-ebook.com/)
-
+    
     $ make book.mobi
 
-## References
+## Эх сурвалж
 
-Contents of this eBook currently reference the following software versions:
+Энэхүү номд ашиглагдсан програмын хувилбар:
 
   - node 0.2.0
 
@@ -57,6 +53,6 @@ Contents of this eBook currently reference the following software versions:
 
 ## Лиценз
 
-Node.js is an official trademark of Joyent. This work is not formally related to or endorsed by the official Joyent Node.js open source or commercial project.
+Node.js бол "Joyent"-ийн албан ёсны худалдааны тэмдэг юм. Гэвч энэхүү ажил нь "Joyent Node.js"-ийн худалдааны эсэхүл нээлттэй эхийн төсөлд хамаарахгүй юм.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Mastering Node</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">TJ Holowaychuk</span> is licensed under a <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png" /></a><br /><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">ТиЖэй Голловэйчак</span>-ийн <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Node-ийг Эзэмших нь</span> бүтээлийн лиценз <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
