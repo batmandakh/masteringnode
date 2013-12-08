@@ -1,8 +1,8 @@
 <div class='mp'>
-<h1>Buffers</h1>
-<p> To handle binary data, node provides us with the global <code>Buffer</code> object. <code>Buffer</code> instances represent memory allocated independently of V8's heap. There are several ways to construct a <code>Buffer</code> instance, and many ways you can manipulate its data.</p>
+<h1>Буфер</h1>
+<p> Нөүд хоёрт(binary)-ын өгөгдөл боловсруулахад зориулж <code>Буфер</code> объектоор  хангаж өгдөг. <code>Буфер</code> instances гэдэг нь санах ойд байрласан, бие даасан V8 объектуудыг хэлнэ. <code>Буфер</code> instance байгуулах болон түүний өгөгдлийг удирдах олон арга байдаг.</p>
 
-<p>The simplest way to construct a <code>Buffer</code> from a string is to simply pass a string as the first argument. As you can see in the log output, we now have a buffer object containing 5 bytes of data represented in hexadecimal.</p>
+<p>Тэмдэгт мөрөөс <code>Буфер</code> байгуулах хамгийн энгийн арга бол зүгээр л эхний аргументад утга онооход л хангалттай. 5 байт урттай арван зургаат(hexadecimal)-тын өгөгдөлтэй буфер объектын жишээг дараах тэмдэглэлийн гаралтаас харна уу.</p>
 
 <pre><code>var hello = new Buffer('Hello');
 
@@ -17,7 +17,7 @@ console.log(hello.toString());
 
 <pre><code>var buf = new Buffer('…');
 console.log(buf.toString());
-// =&gt; …
+// =&gt; 
 
 var buf = new Buffer('…', 'ascii');
 console.log(buf.toString());
